@@ -53,13 +53,13 @@ const gameBegin = { //遊戲開始物件
 
         //this指現在的canvas
         //第一個參數是定義ID
-        this.load.image("bg1","/Pixel/far.png");
-        this.load.image("bg2","/Pixel/sand.png");
-        this.load.image("bg3","/Pixel/foreground-1.png");
-        this.load.spritesheet("sub","/Pixel/subM.png",{frameWidth: 550, frameHeight:400});
+        this.load.image("bg1","Pixel/far.png");
+        this.load.image("bg2","Pixel/sand.png");
+        this.load.image("bg3","Pixel/foreground-1.png");
+        this.load.spritesheet("sub","Pixel/subM.png",{frameWidth: 550, frameHeight:400});
         //sprite sheet可以處理動畫
 
-        this.load.image("dropItem", "/Pixel/PABA.png");
+        this.load.image("dropItem", "Pixel/PABA.png");
     },
     create: function(){
         //初始化
