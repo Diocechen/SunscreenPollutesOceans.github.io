@@ -5,13 +5,13 @@ const gameMenu = {
 
         //this指現在的canvas
         //第一個參數是定義ID
-        this.load.image("bg1","/Pixel/far.png");
-        this.load.image("bg2","/Pixel/sand.png");
-        this.load.image("bg3","/Pixel/foreground-1.png");
+        this.load.image("bg1","Pixel/far.png");
+        this.load.image("bg2","Pixel/sand.png");
+        this.load.image("bg3","Pixel/foreground-1.png");
         
-        this.load.image("sub","/Pixel/subM.png");
+        this.load.image("sub","Pixel/subM.png");
         
-        this.load.image("startBTN","/UI/PlayButton.png");
+        this.load.image("startBTN","UI/PlayButton.png");
     },
     create: function(){
         //初始化
